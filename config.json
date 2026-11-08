@@ -1,0 +1,34 @@
+{
+  "deepseek-v4.1-flash": {
+    "api_key": "pk_7cyMM-Zd8I4ZxyfUCtCL_nOAFMJNgo5Eb4w8MWjwVNM",
+    "base_url": "https://zhiyaoapi.top/v1",
+    "model": "deepseek-v4.1-flash",
+    "temperature": 0.2,
+    "max_tokens": 300
+  },
+  "speech_recognition": {
+    "model": "small",
+    "model_path": "",
+    "model_download_root": "models",
+    "hf_endpoint": "https://hf-mirror.com",
+    "language": "zh",
+    "device": "auto",
+    "compute_type": "auto"
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "channels": 1,
+    "blocksize": 1024
+  },
+  "tts": {
+    "enabled": true,
+    "rate": 180,
+    "volume": 1.0
+  },
+  "memory": {
+    "window_turns": 8,
+    "summary_trigger_chars": 6000,
+    "keep_after_summary": 4,
+    "restore_latest_session": true
+  }
+}
